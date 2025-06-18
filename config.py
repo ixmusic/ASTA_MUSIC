@@ -7,30 +7,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("21749932"))
-API_HASH = getenv("0a2297a585a638f290d2608fb2684dc1")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7952954408:AAHP2Xzwj7R3UgmlM5Vlt0YqenMXfUoH3wU")
+BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ixasta")
+OWNER_USERNAME = getenv("OWNER_USERNAME","iamakki001")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Laibaamusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("˹ʟᴧɪʙᴧ ꭙ ᴍᴜꜱɪᴄ˼ ♪")
+BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002540470695))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002311769574))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7464690589))
+OWNER_ID = int(getenv("OWNER_ID", 5909658683))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/abhaysinghchauhan001/NOBITAMUSIC001",
+    "https://github.com/abhi9313/NOBITAxMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
